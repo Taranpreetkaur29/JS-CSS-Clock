@@ -14,7 +14,7 @@ function date() {
     minutehand.style.transform = `rotate(${mincal}deg)`;
 
     const hr=newdate.getHours()
-    const hrcal=((hr/12)*360)+ ((mins/60)*30)+90;
+    const hrcal=((hr/12)*360)+ ((min/60)*30)+90;
     hourhand.style.transform = `rotate(${hrcal}deg)`;
 }
 
